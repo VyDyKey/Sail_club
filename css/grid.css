@@ -1,9 +1,8 @@
 /* ________________________HEADER_____________________________ */
 .page-header{
-    width: 1280px;
+    width: 1170px;
     padding: 20px 55px;
     margin: 0 auto;
-    box-sizing: border-box;
     margin-bottom: 40px;
 }
 
@@ -310,7 +309,7 @@ blockquote{
 .page-footer{
     border-top: 1px solid rgba(22, 49, 82,0.1);
     margin: 0 auto;
-    width: 1280px;
+    width: 1170px;
     padding: 60px 55px;
     display: flex;
     justify-content: space-between;

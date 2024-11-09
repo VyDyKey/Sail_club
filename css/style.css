@@ -32,6 +32,8 @@ a{
 
 .header-navigation-item{
     text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .main-hero h1{
