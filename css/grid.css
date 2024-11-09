@@ -1,0 +1,336 @@
+/* ________________________HEADER_____________________________ */
+.page-header{
+    width: 1280px;
+    padding: 20px 55px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.page-header-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.header-navigation-logo{
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+}
+
+.header-navigation-list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 559px;
+}
+
+.header-navigation-account{
+    margin-left: 40px;
+}
+/* ___________________________MAIN__________________________ */
+.page-main{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+/* ____________________________HERO_________________________ */
+.main-hero{
+    margin: 0;
+    margin-bottom: 120px;
+}
+
+.main-hero h1{
+    margin: 0;
+    margin-left: 70px;
+    margin-bottom:40px;
+}
+
+/* __________________________POSTERS___________________________ */
+.main-posters{
+    margin: 0 auto;
+    padding: 0 70px;
+    margin-bottom: 120px;
+}
+
+.main-poster{
+    display: flex;
+    justify-content: space-between;
+    width: 1030px;
+}
+
+.main-poster-1{
+    flex-direction: row-reverse;
+    margin-bottom: 100px;
+}
+
+.main-poster-info{
+    width: 400px;
+}
+
+.main-poster-data{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.main-poster-heading{
+    margin: 0;
+    margin-bottom: 35px;
+}
+/* ___________________________RENT__________________________ */
+
+.main-rent{
+    margin: 0 auto;
+    width: 1170px;
+    margin-bottom: 120px;
+}
+
+.main-rent-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.main-rent-item{
+    margin: 0;
+    width:370px;
+    padding:30px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 30px rgba(22, 49, 82, 0.12)
+}
+
+.rent-image{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 21px;
+}
+
+.rent-heading{
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.rent-text{
+    margin: 0;
+    padding: 0;
+    margin-bottom:15px;
+}
+
+.rent-characteristic-list{
+    margin: 0;
+    padding: 0;
+    margin-bottom:29px;
+}
+
+.rent-characteristic-item{
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+    margin-left: 18px;
+}
+
+.rent-characteristic-item:last-child{
+    margin-bottom: 0;
+}
+
+.rent-price{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* ___________________________GALERY__________________________ */
+.main-gallery{
+    margin: 0 auto;
+    width: 1170px;
+    margin-bottom: 120px;
+}
+
+.gallery-heading{
+    margin: 0 auto;
+    margin-bottom: 55px;
+    width: 91px;
+}
+
+.gallery-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-item{
+    margin-bottom: 30px;
+}
+
+.gallery-item:last-child{
+    margin-bottom: 0;
+}
+
+.gallery-item a {
+    position: relative;
+    display: block;
+    height: 150px;
+}
+
+.gallery-item a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.gallery-item:last-child a::before {
+    position: static;
+/* ___________________________NEWS__________________________ */}
+
+.main-news{
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.main-news-heading{
+    width: 97px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.news-sochi-race figure{
+    padding: 0;
+    margin: 0;
+}
+
+.news-sochi-race figcaption{
+    margin: 0;
+    margin-top: 17px;
+    margin-bottom: 33px;
+}
+
+.news-heading{
+    margin: 0;
+    margin-bottom: 27px;
+}
+
+.news-sochi-race p{
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.news-heading-4{
+    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+.news-list{
+    margin-bottom: 30px;
+}
+
+.news-item{
+    margin-left:18px;
+    margin-bottom: 8px;
+}
+
+.news-item:last-child{
+    margin-bottom: 0;
+}
+
+blockquote{
+    margin: 0;
+    padding: 0;
+    margin-top: 38px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.news-footer{
+    margin: 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-footer-autor{
+    margin-right: 15px;
+}
+
+.news-footer-info{
+    width: 142px;
+}
+
+.news-footer-share{
+    margin-left:auto ;
+}
+
+.main-contact{
+    margin: 0;
+    margin-bottom: 120px;
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info-heading{
+    margin-bottom: 35px;
+}
+
+.contact-info-item{
+    margin-bottom: 15px;
+}
+
+.contact-info-item:last-child{
+    margin-bottom: 0;
+}
+
+.contact-info-social-networks{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-info-social-network{
+    margin-right: 15px;
+}
+
+.contact-info-social-network a{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #00C6BD;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-footer{
+    border-top: 1px solid rgba(22, 49, 82,0.1);
+    margin: 0 auto;
+    width: 1280px;
+    padding: 60px 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column{
+    margin: 0;
+    width: 175px;
+    margin-right:auto;
+}
+
+.footer-navigation-topics{
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigation-topic-list{
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
